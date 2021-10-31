@@ -5,3 +5,7 @@
 - [ ] Colocar o BG dos equipamentos
 - [ ] Adicionar border no menu inferior quando selecionado
 - [ ] Responsividade
+
+##LINK
+
+https://maikaodev-tom-clancy.netlify.app/
