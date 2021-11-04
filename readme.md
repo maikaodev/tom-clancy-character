@@ -5,6 +5,7 @@
 - [ ] Colocar o BG dos equipamentos
 - [ ] Adicionar border no menu inferior quando selecionado
 - [ ] Responsividade
+- [ ] Por transparência no background do menu de armas
 
 ##LINK
 
