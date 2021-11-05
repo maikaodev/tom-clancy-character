@@ -1,181 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Rubik:wght@400;500&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <title>Maikãodev</title>
-</head>
-
-<body>
-  <main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tom Clancy Clone - Maikaodev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <div class="container">
-      <!-- Header info -->
-      <div class="header">
-        <section class="info-user">
-          <div class="personal-info">
-            <img src="" alt="Tag" />
-            <div>
-              <span>Team Front-End</span>
-              <h2>Maikãodev</h2>
-            </div>
-
+      <!-- HEADER -->
+      <header>
+        <!-- INFO PLAYER -->
+        <div class="info-player info-player-1">
+          <img src="./assets/images/tag-user.png" alt="Tag Rank" />
+          <div class="info-user">
+            <span>Team Front-End</span>
+            <h2>Maikaodev</h2>
           </div>
+        </div>
 
-          <div class="class-info">
-            <h2>SentinelVIII</h2>
-            <div>
-              <span class="money">$2,425,856</span>
-              <img src="./assets/images/ball-orange.png" alt="Ball Orange">
+        <!--END INFO PLAYER -->
+
+        <!--END INFO PLAYER 2 -->
+
+        <div class="info-player info-player-2">
+          <h2>SentinelVIII</h2>
+          <div class="money">
+            <span>2,425,856</span>
+            <div class="inventory-quantity">
+              <h3>INVENTORY</h3>
+              <span>86/100 </span>
             </div>
-
-            <div id="inventory">
-              <h4>Inventory:</h4>
-              <span> 86/100</span>
-            </div>
-
           </div>
+        </div>
+        <!--END INFO PLAYER 2 -->
+      </header>
+
+      <!-- END HEADER -->
+
+      <main class="inventory">
+        <!-- WEAPONS -->
+
+        <section class="slots slot-weapons">
+          <ul>
+            <!-- 1 -->
+            <li class="slot slot-1">
+              <div class="weapon-image double-image">
+                <img src="./assets/images/demolitionist.png" alt="Gun" />
+                <img
+                  src="./assets/images/granade.png"
+                  alt="Granade"
+                  class="granade"
+                />
+              </div>
+              <div class="description-weapon">
+                <span>M32A1 Grendade Launcher</span>
+                <h1>Demolitionist</h1>
+                <span>Frag Grendade</span>
+              </div>
+            </li>
+            <!-- 1 -->
+            <!-- 2 -->
+            <li class="slot slot-2">
+              <div class="weapon-image">
+                <img src="./assets/images/vector.png" alt="Gun" />
+              </div>
+              <div class="description-weapon">
+                <span>Tactical Vector SBR 9mm</span>
+                <h1>91.7k</h1>
+                <div>
+                  <span>RPM 1200</span>
+                  <span>MAG 32</span>
+                </div>
+              </div>
+            </li>
+            <!-- 2 -->
+            <!-- 3 -->
+            <li class="slot slot-3">
+              <div class="weapon-image">
+                <img src="./assets/images/designated-hitter.png" alt="GUN" />
+              </div>
+              <div class="description-weapon">
+                <span>DESIGNATED HITTER</span>
+                <h1>520.2k</h1>
+                <div>
+                  <span>RPM 62</span>
+                  <span>MAG 8</span>
+                </div>
+              </div>
+            </li>
+            <!-- 3 -->
+            <!-- 4 -->
+            <li class="slot slot-4">
+              <div class="weapon-image">
+                <img src="./assets/images/mozambique-special.png" alt="GUN" />
+              </div>
+              <div class="description-weapon">
+                <span>Mozambique Special</span>
+                <h1>130.2k</h1>
+                <div>
+                  <span>RPM 80</span>
+                  <span>MAG 11</span>
+                </div>
+              </div>
+            </li>
+            <!-- 4 -->
+            <!-- 5 -->
+            <li class="slot slot-5">
+              <div class="weapon-image spell">
+                <img src="./assets/images/drone.png" alt="Drone" />
+                <img src="./assets/images/shield.png" alt="Shield" />
+              </div>
+              <div class="description-weapon">
+                <span>SKILL TIER</span>
+                <div class="lvl-skill-tier">
+                  <img
+                    src="./assets/images/rectangle-white.png"
+                    alt="rectangle-white"
+                  />
+                  <img
+                    src="./assets/images/rectangle-white.png"
+                    alt="rectangle-white"
+                  />
+                  <img
+                    src="./assets/images/rectangle-white.png"
+                    alt="rectangle-white"
+                  />
+                  <img
+                    src="./assets/images/rectangle-white.png"
+                    alt="rectangle-white"
+                  />
+                  <img
+                    src="./assets/images/rectangle-white.png"
+                    alt="rectangle-white"
+                  />
+                  <img
+                    src="./assets/images/rectangle-white.png"
+                    alt="rectangle-white"
+                  />
+                </div>
+                <span>06/06 </span>
+              </div>
+            </li>
+            <!-- 5 -->
+          </ul>
         </section>
-      </div>
 
+        <!--END WEAPONS -->
 
-      <section class="weapons">
-        <!-- Guns -->
+        <!-- Equipament -->
 
-        <section class="guns">
+        <section class="slots slot-equipament">
+          <ul>
+            <!-- 1 -->
 
-          <div class="slot slot-1">
-            <div class="images">
-              <img src="./assets/images/demolitionist.png" alt="machine-gun" />
-            </div>
-            <div class="description">
-              <span>M32A1 GRENDADE LAUNCHER</span>
-              <h2>Demolitionist</h2>
-              <span>Frag Grendade</span>
-            </div>
-          </div>
+            <li class="slot slot-equipament">
+              <div class="description-equipament first">
+                <span>SHADE LEVEL</span>
+                <h1>125</h1>
+              </div>
+              <div class="equipament-image">
+                <img src="./assets/images/mask.png" alt="Equipament image" />
+              </div>
+            </li>
 
-          <div class="slot slot-2">
-            <div class="images">
-              <img src="./assets/images/vector.png" alt="second-weapon" />
-            </div>
-            <div class="description">
-              <span>TACTICAL VECTOR SBR 9MM</span>
-              <h1>91.7K</h1>
-              <span>RPM 1200 MAG 32</span>
-            </div>
-          </div>
+            <!-- 1 -->
 
-          <div class="slot slot-3">
-            <div class="images">
-              <img src="./assets/images/designated-hitter.png" alt="first-weapon" />
-            </div>
-            <div class="description">
-              <span>DESIGNATED HITTER</span>
-              <h1>520.2K</h1>
-              <span>RPM 62 MAG 8</span>
-            </div>
-          </div>
+            <!-- 2 -->
 
-          <div class="slot slot-4">
-            <div class="images">
-              <img src="./assets/images/mozambique-special.png" alt="third-weapon" />
-            </div>
-            <div class="description">
-              <span>MOZAMBIQYE SPECIAL</span>
-              <h1>130.2K</h1>
-              <span>RPM 80 MAG 11</span>
-            </div>
-          </div>
+            <li class="slot slot-equipament">
+              <div class="description-equipament">
+                <span>ARMOR</span>
+                <h1>670.6K</h1>
+              </div>
 
-          <div class="skill-tier">
-            <img src="./assets/images/drone.png" alt="drone" />
-            <img src="./assets/images/shield.png" alt="shield" />
-            <div class="description">
-              <span>SKILL TIER</span>
-              <img src="" alt="box-level" />
-              <span>04/06</span>
-            </div>
-          </div>
+              <div class="equipament-image">
+                <img src="./assets/images/armor.png" alt="Equipament image" />
+              </div>
+            </li>
+
+            <!-- 2 -->
+
+            <!-- 3 -->
+
+            <li class="slot slot-equipament">
+              <div class="description-equipament">
+                <span>HEALTH</span>
+                <h1>271.3K</h1>
+              </div>
+
+              <div class="equipament-image">
+                <img src="./assets/images/health.png" alt="Equipament image" />
+              </div>
+            </li>
+            <!-- 3 -->
+
+            <!-- 4 -->
+
+            <li class="slot slot-equipament">
+              <div class="equipament-image">
+                <img src="./assets/images/gloves.png" alt="Equipament image" />
+              </div>
+            </li>
+            <!-- 4 -->
+
+            <!-- 5 -->
+
+            <li class="slot slot-equipament">
+              <div class="equipament-image">
+                <img src="./assets/images/holster.png" alt="Equipament image" />
+              </div>
+            </li>
+
+            <!-- 5 -->
+
+            <!-- 6 -->
+
+            <li class="slot slot-equipament">
+              <div class="equipament-image">
+                <img src="./assets/images/brace.png" alt="Equipament image" />
+              </div>
+            </li>
+
+            <!-- 6 -->
+          </ul>
         </section>
+        <!-- End Equipament -->
+      </main>
 
-        <!-- EQUIPAMENT  -->
+      <!-- FOOTER -->
 
-        <section class="equipment">
-            <div class="slot mask">
-            <div class="description">
-              <span>SHADE LEVEL</span>
-              <h1>125</h1>
-            </div>
-            <div class="images">
-              <img src="./assets/images/mask.png" alt="Mask" />
-              <img src="" alt="bg-mask" class="bg-img" />
-            </div>
-            </div>
-
-            <div class="slot armor">
-            <div class="description">
-              <span>ARMOR</span>
-              <h1>670.6k</h1>
-            </div>
-            <div class="images">
-              <img src="./assets/images/armor.png" alt="Armor" />
-            </div>
-            </div>
-
-            <div class="slot parachute">
-            <div class="description">
-              <span>HEALTH</span>
-              <h1>271.3K</h1>
-            </div>
-            <div class="images">
-              <img src="./assets/images/health.png" alt="Healh" />
-            </div>
-            </div>
-
-            <div class="slot gloves">
-            <div class="images">
-              <img src="./assets/images/gloves.png" alt="gloves" />
-            </div>
-            </div>
-
-           <div class="slot holster">
-            <div class="images">
-              <img src="./assets/images/holster.png" alt="holster" />
-            </div>
-            </div>
-
-            <div class="slot brace">
-            <div class="images">
-              <img src="./assets/images/brace.png" alt="brace" />
-            </div>
-        </section>
-      </section>
-      
-      <footer>
+      <footer class="menu-select">
         <ul>
           <li>
-            <img src="" alt="LB">
+            <button>
+              <img src="./assets/images/LB.png" alt="LB" />
+            </button>
           </li>
-          <li>CLAN</li>
-          <li>SOCIAL</li>
-          <li>CHARACTER</li>
-          <li>APPAREL</li>
-          <li>PROGRESSION</li>
-          <li>SETTINGS</li>
+
           <li>
-            <img src="" alt="RB">
+            <button class="btn-select">CLAN</button>
+          </li>
+
+          <li>
+            <button class="btn-select">SOCIAL</button>
+          </li>
+
+          <li>
+            <button class="btn-select">CHARACTER</button>
+          </li>
+
+          <li>
+            <button class="btn-select">APPAREL</button>
+          </li>
+
+          <li>
+            <button class="btn-select">PROGRESSION</button>
+          </li>
+
+          <li>
+            <button class="btn-select">SETTINGS</button>
+          </li>
+
+          <li>
+            <button>
+              <img src="./assets/images/RB.png" alt="RB" />
+            </button>
           </li>
         </ul>
       </footer>
-    </div>
-  </main>
-</body>
 
+      <!-- END FOOTER -->
+    </div>
+  </body>
 </html>
