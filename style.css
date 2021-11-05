@@ -117,7 +117,7 @@ main {
   height: 5rem;
   margin: 4px;
 
-  background-color: #a88133;
+  background-color: rgba(249, 171, 22, 0.5);
   border: 2px solid #f9ab16;
 }
 
@@ -131,6 +131,14 @@ main {
   height: 5rem;
 
   display: flex;
+  justify-content: space-between;
+}
+
+.container .weapons .guns .skill-tier img {
+  background: rgba(0, 0, 0, 0.25);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  width: 80px;
+  object-fit: contain;
 }
 .container .weapons .guns .skill-tier .description {
   display: flex;
@@ -176,7 +184,7 @@ main {
   height: 5rem;
   margin: 4px;
 
-  background-color: #a88133;
+  background-color: rgba(249, 171, 22, 0.5);
   border: 2px solid #f9ab16;
 }
 
