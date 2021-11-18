@@ -7,6 +7,6 @@
 - [x] Responsividade
 - [x] Por transparência no background do menu de armas
 
-##LINK
+## LINK
 
 https://maikaodev-tom-clancy.netlify.app/
