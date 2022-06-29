@@ -1,12 +1,13 @@
-##Melhorias
+## Tom Clancy Character
 
-- [x] Adicionar as outras imagens do menu de armas
-- [ ] Alterar as cores do menu
-- [x] Colocar o BG dos equipamentos
-- [x] Adicionar border no menu inferior quando selecionado
-- [x] Responsividade
-- [x] Por transparência no background do menu de armas
-
-## LINK
+## Link - Deploy
 
 https://maikaodev-tom-clancy.netlify.app/
+
+## LinkedIn
+
+https://www.linkedin.com/in/maikaodev/
+
+## Descrição
+
+- Treinando HTML e CSS.
